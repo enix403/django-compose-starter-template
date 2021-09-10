@@ -49,8 +49,8 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
     # allow CORS on all ports of localhost (including no port)
-    r"^http:\/\/localhost(:[0-9]+)?$",
-    # allow CORS on all ip addrs of form 127.x.y.z[:port]
-    r"^http:\/\/127\.[0-9]+\.[0-9]+\.[0-9]+(:[0-9]+)?$" 
+    r"^https?:\/\/localhost(:[0-9]+)?$",
+    # allow CORS on all ip addresses from the IPv4 block 127.0.0.0/8, along with an optional port
+    r"^https?:\/\/127\.[0-9]+\.[0-9]+\.[0-9]+(:[0-9]+)?$" 
 ]
 
