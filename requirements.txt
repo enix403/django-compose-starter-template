@@ -1,0 +1,21 @@
+# It is advised to use the exact versions of the packages in this file
+# Example django==3.2.6
+
+django
+djangorestframework
+
+django-debug-toolbar
+django-extensions
+django-htmlmin
+django-split-settings
+django-types
+django-cors-headers
+
+gunicorn
+mysqlclient
+psycopg2
+
+passlib
+python-dateutil
+envtoml
+pyjwt
